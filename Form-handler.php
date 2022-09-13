@@ -2,7 +2,7 @@
 $name= $_POST{'name'};
 $visitor_email= $_POST{'email'};
 $subject= $_POST{'subject'};
-$Message= $_POST{'message'};
+$message= $_POST{'message'};
 
 
 $email_from= 'abcxyz@dcuuni.com';
@@ -10,9 +10,9 @@ $email_from= 'abcxyz@dcuuni.com';
 $email_subject ='New Form Submission';
 
 $email_body= "User Name: $name .\n".
-                "User Email: $visitor_email .\n".
-                    "Subject: $subject .\n".
-                     "User Message: $Message .\n";
+             "User Email: $visitor_email .\n".
+             "Subject: $subject .\n".
+             "User Message: $message .\n";
 
 $to = 'Gmaniart@gmail.com';
 
