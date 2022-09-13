@@ -71,11 +71,11 @@
             </div>
 
             <div class="contact-col">
-                    <form class="action">
-                        <input type="text" Placeholder="Enter Name" required>
-                        <input type="email" Placeholder="Enter email" required>
-                        <input type="text" Placeholder="Enter Your Subject" required>
-                        <textarea rows="8" Placeholder="Message" required></textarea>
+                    <form action="Form-handler.php" method="post">
+                        <input type="text" name="name" Placeholder="Enter Name" required>
+                        <input type="email" name="email" Placeholder="Enter email" required>
+                        <input type="text" name="subject" Placeholder="Enter Your Subject" required>
+                        <textarea rows="8" name="message" Placeholder="Message" required></textarea>
                         <br>
                         <button type="submit" class="hero-btn red-btn">Send Message</button>
                     </form>
